@@ -10,15 +10,62 @@
     overflow: hidden;
 }
 
-.main-content {
+.sidebar-main-content {
     height: 100%;
     overflow: hidden;
 }
 
+.toolbar-menu {
+    min-height: 50px;
+    overflow: hidden;
+}
+
+.container-sidebar {
+    background-color: #0A2238;
+}
+
+.sidebar {
+    width: 70px;
+    height: 100%;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.cards-section {
+    height: 100%;
+}
+
+.boolean {
+    min-height: 120px;
+}
+
+
+/* MEDIAQUEERY */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .sidebar {
+        width: 150px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
+
+
+
 /* DEBUG */
 
-.debug .container,
-.debug .container-fluid {
+.debug [class^='container'] {
     border: 2px solid orange;
     padding: 10px;
     min-height: 10px;
