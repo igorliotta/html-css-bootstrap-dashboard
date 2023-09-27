@@ -1,0 +1,36 @@
+/* LAYOUT */
+
+.page-content {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container-fluid {
+    height: 100%;
+    overflow: hidden;
+}
+
+.main-content {
+    height: 100%;
+    overflow: hidden;
+}
+
+/* DEBUG */
+
+.debug .container,
+.debug .container-fluid {
+    border: 2px solid orange;
+    padding: 10px;
+    min-height: 10px;
+}
+
+.debug .row {
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.debug [class^='col'] {
+    border: 2px solid blue;
+    padding: 10px;
+    min-height: 30px;
+}
