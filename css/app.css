@@ -36,6 +36,22 @@
     min-height: 120px;
 }
 
+/* SIDEBAR */
+
+.item {
+    text-decoration: none;
+    color: white; 
+    display: inline-block;
+}
+
+.home,
+.stats,
+.signal,
+.admin {
+    font-size: 14px;
+    display: none;
+}
+
 
 /* MEDIAQUEERY */
 
@@ -47,6 +63,14 @@
     .sidebar {
         width: 150px;
     }
+
+    .home,
+    .stats,
+    .signal,
+    .admin {
+    display: inline-block;
+}
+
 }
 
 /* Large devices (desktops, 992px and up) */
