@@ -51,17 +51,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-/* SIDEBAR */
-
 .item {
     text-decoration: none;
     color: white; 
@@ -75,6 +64,19 @@
     font-size: 14px;
     display: none;
 }
+
+.bg-badge {
+    background-color: #165BBA;
+}
+
+.arrow {
+    font-size: 10px;
+}
+
+.boolean-title {
+    font-size: 20px;
+}
+
 
 
 
