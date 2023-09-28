@@ -87,10 +87,109 @@
                     <div class="col-lg-2 col-md-12 col-new-student order-md-first order-lg-last d-flex flex-column justify-content-start text-light my-3">
                         <div class="up d-flex align-items-center">
                             <span class="text-light py-1">Nuovo Studente</spam>
-                                <button type="button" class="btn btn-outline-light bg text-light mx-1">+</button>
+                                  <button class="btn btn-outline-light bg text-light mx-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                    +
+                                  </button>
+                                  
+                                  <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                      <h5 class="offcanvas-title text-dark" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+
+
+                                    <div class="offcanvas-body">
+                                        <form action="">
+                                            <div class="d-flex justify-content-between gap-2 mt-2">
+                                                <div class="text-start w-50">
+                                                    <p class="text-dark">Nome</p>
+                                                    <input  class="w-100" type="text" name="name">
+                                                </div>
+
+                                                <div class="surname-user text-start w-50">
+                                                    <p class="text-dark">Cognome</p>
+                                                    <input class="w-100" type="text" name="surname-user">
+                                                </div>
+                                                
+                                            </div>
+
+                                            <div class="d-flex justify-content-between gap-2 mt-4">
+                                                <div class="text-start w-50">
+                                                    <p class="text-dark">Email</p>
+                                                    <input  class="w-100 text-dark" type="email" name="email" placeholder="@">
+                                                </div>
+
+                                                <div class="surname-user text-start w-50">
+                                                    <p class="text-dark">Password</p>
+                                                    <input class="w-100" type="password" name="password">
+                                                </div>
+                                            </div>
+
+                                            <div class="d-flex justify-content-between gap-2 mt-4">
+                                                <div class="text-start w-100">
+                                                    <p class="text-dark">Indirizzo</p>
+                                                    <input  class="w-100 text-dark" type="text" name="indirizzo">
+                                                </div>
+                                            </div>
+
+                                            <div class="d-flex justify-content-between gap-2 mt-4">
+                                                <div class="text-start w-50">
+                                                    <p class="text-dark">Città</p>
+                                                    <input  class="w-100 text-dark" type="text" name="città">
+                                                </div>
+
+                                                <div class="text-start w-30">
+                                                    <p class="text-dark">Stato</p>
+                                                
+                                                        <select class="w-100" name="stato" value="stato" >
+                                                            <option value="first">Italia</option>
+                                                            <option value="second">Regno Unito</option>
+                                                            <option value="third">America</option>
+                                                          </select>
+                                                
+                                                </div>
+
+                                                <div class="text-start w-20">
+                                                    <p class="text-dark text-uppercase">Cap</p>
+                                                    <input class="w-100" type="text" name="cap">
+                                                </div>
+
+                                                
+
+                                            </div>
+
+                                            <div class="d-flex justify-content-between gap-2 mt-4">
+                                                <div class="text-start w-100">
+                                                    <p class="text-dark">Foto</p>
+                                                    <div class="bg-white w-100 file rounded">
+                                                        <input type="file" id="myfile" name="myfile">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="d-flex justify-content-between gap-2 mt-4">
+                                                <div class="d-flex align-items-center">
+                                                    <input type="checkbox">
+                                                    <p class="text-dark align-self-center text-6 mt-3 px-2">Seleziona per proseguire</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="d-flex justify-content-between gap-2 mt-4">
+                                                <div class="d-flex align-items-center">
+                                                    <input type="submit" value="Salva" class="m-2 px-1 bg-primary text-light border-primary rounded" >
+                                                    <input type="submit" value="Svuota" class="px-1 bg-warning text-dark border-warning rounded">
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    <div>
+                                        
+                                      </div>
+                                      
+                                    </div>
+                                  </div>
                         </div>
 
-                       
                         
 
                     </div>
