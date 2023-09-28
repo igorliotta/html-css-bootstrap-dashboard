@@ -77,6 +77,19 @@
     font-size: 20px;
 }
 
+.code-circle {
+    width: 30px;
+    aspect-ratio: 1;
+    line-height: 25px;
+    vertical-align: middle;
+    background-color: #F26551;
+    text-align: center;
+    font-size: 13px;
+    padding: 2px;
+    color: white;
+    border-radius: 50%;
+}
+
 
 
 
@@ -136,4 +149,8 @@
     border: 2px solid violet;
     padding: 10px;
     min-height: 30px;
+}
+
+.debug .card {
+    border: 2px solid green;
 }
