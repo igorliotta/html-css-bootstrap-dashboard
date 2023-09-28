@@ -29,11 +29,27 @@
 
 .cards-section {
     overflow: hidden;
+
 }
 
 .admin {
     margin-top: auto;
 }
+
+.mobile-logo {
+    width: 50px;
+    aspect-ratio: 1;
+}
+
+.logo-img {
+    display: block;
+}
+
+.logo-large {
+    display: none;
+}
+
+
 
 
 
@@ -75,6 +91,14 @@
     display: inline-block;
 }
 
+.mobile-logo {
+    display: none;
+}
+
+.logo-large {
+    display: block;
+}
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -98,7 +122,6 @@
 
 .debug .row {
     border: 2px solid red;
-    padding: 10px;
 }
 
 .debug [class^='col'] {
