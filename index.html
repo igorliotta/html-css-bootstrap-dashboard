@@ -12,13 +12,38 @@
 
   <div class="page-content">
     <!-- TOOLBAR -->
-    <footer class="toolbar-menu bg-light d-flex align-items-center">
+    <footer class="toolbar-menu d-flex align-items-center">
+
        <figure class="logo-img px-1 my-1">
         <img class="logo-large" src="./img/logo.svg" alt="">
        </figure>
        <figure class="logo-img px-1 my-1">
         <img class="mobile-logo" src="./img/mobile-logo.png" alt="">
        </figure>
+
+       <div class="search bg-secondary d-flex flex-grow-1 align-items-center text-dark bg-light rounded-pill">
+        <a href="#" class="text-dark"> <i class="fa-solid fa-magnifying-glass px-3"></i></a>
+        <input type="text" class="border-0 w-100 bg-light rounded-pill overflow-hidden" placeholder="Prova a cercare: Lezioni di Laravel">
+       </div>
+
+       <ul class="list-tools list-unstyled d-flex align-items-center text-light mt-3 px-2">
+        <li class="px-2">
+            <a href="#" class="text-dark d-none d-md-block"><i class="fa-solid fa-list-ul"></i></a>
+        </li>
+
+        <li class="px-2">
+            <a href="#" class="text-dark d-none d-md-block"><i class="fa-solid fa-circle-question"></i></a>
+        </li>
+
+        <li class="px-2">
+            <a href="#" class="text-dark d-none d-md-block"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+        </li>
+
+        <li class="px-2"> 
+            <a href="#" class="text-warning"><i class="fa-solid fa-bell"></i></a>
+        </li>
+        
+       </ul>
         
     </footer>
     

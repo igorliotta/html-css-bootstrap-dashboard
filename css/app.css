@@ -13,6 +13,7 @@
 .toolbar-menu {
     height: 50px;
     overflow: hidden;
+    color: white;
 }
 
 .sidebar {
@@ -48,6 +49,11 @@
 .logo-large {
     display: none;
 }
+
+
+
+
+
 
 
 
