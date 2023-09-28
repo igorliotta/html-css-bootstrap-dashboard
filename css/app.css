@@ -25,6 +25,7 @@
     flex-shrink: 0;
     overflow: hidden;
     background-color: #0A2238;
+    background-image: url(../img/sidebar-bg.png);
 }
 
 .navbar-items {
